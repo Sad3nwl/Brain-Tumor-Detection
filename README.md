@@ -34,5 +34,14 @@ The model achieves exceptional metrics on the test data. Below is the performanc
 
 ## 🛠️ Visualizing Decisions with Grad-CAM
 To bridge the gap between AI predictions and clinical trust, the project extracts gradients from the final convolutional layer (`Conv_1`) of MobileNetV2. It overlays a Jet colormap heatmap onto the input MRI scan to visualize where the model detects tumorous tissue patterns.
+ ## 📂 Dataset
+The dataset used in this project consists of **8,764 images** and is available on **Kaggle**. 
+You can download it directly from here: [Brain Tumor Detection Dataset on Kaggle](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection).
 
+To run the pipeline, extract the dataset into your project root directory under the following structure:
+```text
+archive/
+└── Brain_Tumor_Datasets/
+    ├── train/
+    └── test/
 
