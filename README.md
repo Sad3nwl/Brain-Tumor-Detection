@@ -12,29 +12,7 @@ This repository contains an end-to-end Deep Learning pipeline designed to detect
 
 ---
 
-## 📊 Dataset Insights & Results
-
-### 1. Data Processing
-* Automatic parsing and counting of the training split.
-* Explored data variance using an image brightness histogram to ensure training robustness across different scanner contrasts.
-
-### 2. Model Performance
-The model achieves exceptional metrics on the test data. Below is the performance evaluation breakdown:
-
-* **Confusion Matrix:**
-  The model shows an extremely low false-negative and false-positive rate.
-  
-  ![Confusion Matrix](confusion_matrix.png)
-
-* **Key Metrics:**
-  * High precision and recall for both classes.
-  * Stabilized training and validation tracking utilizing `EarlyStopping` and `ReduceLROnPlateau` callbacks to prevent overfitting.
-
----
-
-## 🛠️ Visualizing Decisions with Grad-CAM
-To bridge the gap between AI predictions and clinical trust, the project extracts gradients from the final convolutional layer (`Conv_1`) of MobileNetV2. It overlays a Jet colormap heatmap onto the input MRI scan to visualize where the model detects tumorous tissue patterns.
- ## 📂 Dataset
+## 📂 Dataset
 The dataset used in this project consists of **8,764 images** and is available on **Kaggle**. 
 You can download it directly from here: [Brain Tumor Detection Dataset on Kaggle](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection).
 
@@ -44,4 +22,3 @@ archive/
 └── Brain_Tumor_Datasets/
     ├── train/
     └── test/
-
