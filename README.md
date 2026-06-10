@@ -35,11 +35,4 @@ The model achieves exceptional metrics on the test data. Below is the performanc
 ## 🛠️ Visualizing Decisions with Grad-CAM
 To bridge the gap between AI predictions and clinical trust, the project extracts gradients from the final convolutional layer (`Conv_1`) of MobileNetV2. It overlays a Jet colormap heatmap onto the input MRI scan to visualize where the model detects tumorous tissue patterns.
 
----
 
-## 🚀 How to Run the Project
-
-### Prerequisites
-Make sure you have the following libraries installed:
-```bash
-pip install tensorflow opencv-python numpy matplotlib scikit-learn
