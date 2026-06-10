@@ -22,3 +22,10 @@ archive/
 └── Brain_Tumor_Datasets/
     ├── train/
     └── test/
+---
+
+## 👥 Project Team
+Development and implementation done by:
+* **Sadeen Abdelalrahman** - [@sad3nwl](https://github.com/sad3nwl)
+* **Raneem Abuhawash** - [@raneem2205](https://github.com/raneem2205)
+* **Aseel Mannoun** - [GitHub Profile](https://github.com/ASEEL)
