@@ -1,9 +1,6 @@
 # Brain Tumor Detection & Explainable AI using MobileNetV2
 
 This repository contains an end-to-end Deep Learning pipeline designed to detect brain tumors from MRI images. The project leverages **Transfer Learning** with **MobileNetV2** for highly accurate binary classification and integrates **Grad-CAM (Gradient-weighted Class Activation Mapping)** to provide visual explanations of the model's predictions.
-
----
-
 ## 📌 Project Overview
 * **Objective:** Binary classification of MRI scans into `Tumor` and `No Tumor`.
 * **Architecture:** Pre-trained **MobileNetV2** base (fine-tuned the last 30 layers) followed by Global Average Pooling, a Dense layer with L2 regularization, Dropout, and a Sigmoid output layer.
