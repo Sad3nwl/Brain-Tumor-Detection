@@ -4,29 +4,24 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
-from tensorflow.keras.preprocessing import image
 from tensorflow.keras import regularizers
 from tensorflow.keras import layers, models
+from sklearn.metrics import confusion_matrix
+from tensorflow.keras.preprocessing import image
+from sklearn.metrics import classification_report
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.callbacks import ReduceLROnPlateau
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
-
 # =========================
 # Dataset Paths
 # =========================
-
 train_path ="archive/Brain_Tumor_Datasets/train"
-
 test_path ="archive/Brain_Tumor_Datasets/test"
-
 # =========================
 # Parameters
 # =========================
-
 IMG_SIZE = (128,128)
 BATCH_SIZE = 32
 EPOCHS = 20
