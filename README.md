@@ -8,11 +8,9 @@ This repository contains an end-to-end Deep Learning pipeline designed to detect
 * **Pre-processing:** Includes image brightness distribution analysis and real-time image data augmentation (rotation, zoom, horizontal flip, and brightness adjustment).
 
 ---
-
 ## 📂 Dataset
 The dataset used in this project consists of **8,764 images** and is available on **Kaggle**. 
 You can download it directly from here: [Brain Tumor Detection Dataset on Kaggle](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection).
-
 To run the pipeline, extract the dataset into your project root directory under the following structure:
 ```text
 archive/
