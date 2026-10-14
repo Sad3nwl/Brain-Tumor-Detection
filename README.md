@@ -6,7 +6,6 @@ This repository contains an end-to-end Deep Learning pipeline designed to detect
 * **Architecture:** Pre-trained **MobileNetV2** base (fine-tuned the last 30 layers) followed by Global Average Pooling, a Dense layer with L2 regularization, Dropout, and a Sigmoid output layer.
 * **Explainability (XAI):** Implemented a custom TensorFlow Grad-CAM pipeline to generate visual heatmaps overlaying the MRI images, highlighting the exact areas influencing the network's classification.
 * **Pre-processing:** Includes image brightness distribution analysis and real-time image data augmentation (rotation, zoom, horizontal flip, and brightness adjustment).
-
 ---
 ## 📂 Dataset
 The dataset used in this project consists of **8,764 images** and is available on **Kaggle**. 
